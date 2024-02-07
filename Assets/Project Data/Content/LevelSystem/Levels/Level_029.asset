@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6667c553d7dbc414e82d3468ce04b7f4, type: 3}
+  m_Name: Level_029
+  m_EditorClassIdentifier: 
+  size: {x: 17, y: 13}
+  obstacles:
+  - element: {fileID: 11400000, guid: 7247d3e48aef2d042af7db095bfea0e8, type: 2}
+    position: {x: 0, y: 0}
+    angle: 0
+  - element: {fileID: 11400000, guid: 7247d3e48aef2d042af7db095bfea0e8, type: 2}
+    position: {x: 4, y: 0}
+    angle: 0
+  - element: {fileID: 11400000, guid: 7247d3e48aef2d042af7db095bfea0e8, type: 2}
+    position: {x: 8, y: 0}
+    angle: 0
+  - element: {fileID: 11400000, guid: 7247d3e48aef2d042af7db095bfea0e8, type: 2}
+    position: {x: 16, y: 5}
+    angle: 90
+  - element: {fileID: 11400000, guid: 7247d3e48aef2d042af7db095bfea0e8, type: 2}
+    position: {x: 16, y: 1}
+    angle: 90
+  - element: {fileID: 11400000, guid: 7247d3e48aef2d042af7db095bfea0e8, type: 2}
+    position: {x: 14, y: 12}
+    angle: 180
+  - element: {fileID: 11400000, guid: 7247d3e48aef2d042af7db095bfea0e8, type: 2}
+    position: {x: 0, y: 11}
+    angle: 270
+  movableObjects:
+  - element: {fileID: 11400000, guid: 53db0ed71fa37914ab57dbddf5a614ce, type: 2}
+    position: {x: 1, y: 1}
+    angle: 0
+  - element: {fileID: 11400000, guid: 6f0f36b57d03da147ab2b94c647deea1, type: 2}
+    position: {x: 4, y: 4}
+    angle: 0
+  - element: {fileID: 11400000, guid: d322aa8b02ffeb04d9de76f0ec666c67, type: 2}
+    position: {x: 9, y: 9}
+    angle: 180
+  - element: {fileID: 11400000, guid: 6f0f36b57d03da147ab2b94c647deea1, type: 2}
+    position: {x: 10, y: 6}
+    angle: 270
+  - element: {fileID: 11400000, guid: 53db0ed71fa37914ab57dbddf5a614ce, type: 2}
+    position: {x: 10, y: 3}
+    angle: 270
+  - element: {fileID: 11400000, guid: 6f0f36b57d03da147ab2b94c647deea1, type: 2}
+    position: {x: 12, y: 7}
+    angle: 0
+  - element: {fileID: 11400000, guid: 53db0ed71fa37914ab57dbddf5a614ce, type: 2}
+    position: {x: 6, y: 9}
+    angle: 90

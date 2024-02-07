@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84cf61839f202154aa19ff6829b6fa7e, type: 3}
+  m_Name: Environment_Skin_1
+  m_EditorClassIdentifier: 
+  textureUnits:
+  - meshUnits:
+    - mesh: {fileID: -5271897691125179157, guid: 2eceee2d7c3d7944ca11ae719c3d3cda,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: b0f75e908bb28f24fb864951b26e26da, type: 2}
+      saved: 0
+    texture: {fileID: 2800000, guid: efd129a4102757f4eabcde38233eb3e9, type: 3}
+  - meshUnits:
+    - mesh: {fileID: 3469533843427767144, guid: 5293d929239494b46ae290ad72b891c4,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: f012cda0657d42a4f89e1dc8d80e0475, type: 2}
+      saved: 0
+    - mesh: {fileID: -1489586300913566244, guid: 5293d929239494b46ae290ad72b891c4,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: 38cc5e25c905685419c749c6c65d7bc7, type: 2}
+      saved: 0
+    - mesh: {fileID: 2943617700032437093, guid: 5293d929239494b46ae290ad72b891c4,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: 50615f69650af6b4faf8787f8157b4ca, type: 2}
+      saved: 0
+    - mesh: {fileID: 6602826005660504001, guid: 5293d929239494b46ae290ad72b891c4,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: c6908a8833382474f8a6706e1c3ec5cd, type: 2}
+      saved: 0
+    - mesh: {fileID: -8914969479645181481, guid: 5293d929239494b46ae290ad72b891c4,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: 78dbbb104135d2e4f83e668131c98684, type: 2}
+      saved: 0
+    texture: {fileID: 2800000, guid: b456543e253463841baec13af0356e7b, type: 3}
+  - meshUnits:
+    - mesh: {fileID: 6458272415967828939, guid: 77c19ace8c233a64ea9629f4f418b38c,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: bde01b0855ca00548bd2260ed80c312d, type: 2}
+      saved: 0
+    texture: {fileID: 2800000, guid: fa9299ec979fe3a4b9c17200cbae5db0, type: 3}
+  - meshUnits:
+    - mesh: {fileID: 7885628123126562720, guid: 30eb6907f3c8b784e8e92f81d64edb8e,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: 5e021196b4ce964449c6e4a37b3a99b7, type: 2}
+      saved: 0
+    - mesh: {fileID: 236827726104851051, guid: c6331e300b770ab43b444b69de328fbe, type: 3}
+      outputMesh: {fileID: 4300000, guid: ec295d564ef97bb428df3c36e548466f, type: 2}
+      saved: 0
+    texture: {fileID: 2800000, guid: af947ac626c73d6429a2fd1a7c663250, type: 3}
+  - meshUnits:
+    - mesh: {fileID: -8914861448769203479, guid: cd8864438c008604ba61afc156098eb8,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: fd800c58c5582dc45be5296530f6a8fe, type: 2}
+      saved: 0
+    texture: {fileID: 2800000, guid: efedac867f05c244a8a1b895be5a6031, type: 3}
+  - meshUnits:
+    - mesh: {fileID: -2183295553936412917, guid: 4d49cebbe07872b4fa28b258a4c7d12a,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: c546bd59537a47440a190a472e49f067, type: 2}
+      saved: 0
+    texture: {fileID: 2800000, guid: d134cfffeede70f4bb9f915de9e1505c, type: 3}
+  - meshUnits:
+    - mesh: {fileID: -462981019419857548, guid: c5c261ef18dd2164fb9ee253f8b4de04,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: 594c60f351700f141995fb4890dc70ee, type: 2}
+      saved: 0
+    texture: {fileID: 2800000, guid: af64ca6f9dd01fd4cad9b75ecbfb19ac, type: 3}
+  - meshUnits:
+    - mesh: {fileID: 4118172251044840284, guid: e91cb330f1b48174bbde32cde050a04b,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: b6e9dc1bb04adaa478594cf19f12ccb8, type: 2}
+      saved: 0
+    texture: {fileID: 2800000, guid: 977b3ed840832a74584935d55d6d7ac9, type: 3}
+  - meshUnits:
+    - mesh: {fileID: 4118172251044840284, guid: e91cb330f1b48174bbde32cde050a04b,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: 8c0131bb5d2484b44a6b8ca2828fec59, type: 2}
+      saved: 0
+    texture: {fileID: 2800000, guid: f49f877e26f03954f8e8d9c018fa4be8, type: 3}
+  - meshUnits:
+    - mesh: {fileID: 7093514604374697652, guid: 4edd8a3bc13006c45a4638f64883a596,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: 196275e5b1a9d2b4794ad8360c142216, type: 2}
+      saved: 0
+    - mesh: {fileID: 2817062825015015226, guid: 4edd8a3bc13006c45a4638f64883a596,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: f9ba985a95f8a3449a1acb178c425ba5, type: 2}
+      saved: 0
+    texture: {fileID: 2800000, guid: a7cfbce204b17f64fa125a39859b496b, type: 3}
+  - meshUnits:
+    - mesh: {fileID: 4325868917012253390, guid: 7b38697ceb896754f9961274d6c6e80f,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: cf919a4b1ed19d84dada02acc860d11b, type: 2}
+      saved: 0
+    texture: {fileID: 2800000, guid: ccb1cc096da91864ca4101e7cd0afef0, type: 3}
+  - meshUnits:
+    - mesh: {fileID: -3383503825467850782, guid: 1f9bc74921a35be4b9a74fae26f99a1f,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: 72a3563574b2ca34c89cd9c76e737994, type: 2}
+      saved: 0
+    texture: {fileID: 2800000, guid: c52c28e4be121cc4a92bb8063a5e2f62, type: 3}
+  - meshUnits:
+    - mesh: {fileID: 5001299100179229414, guid: 3c2d4a6fcc642d94f94d6f1c61c25791,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: 1971d331df1874848a47825cb7ae9dd6, type: 2}
+      saved: 0
+    texture: {fileID: 2800000, guid: a93f0986603ce4a43bb51c33ddadd332, type: 3}
+  - meshUnits:
+    - mesh: {fileID: 1299490568415685049, guid: 584ff7367a086994c831e2d0d768012b,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: 9ab48aee20c500d40ae5024b1a73010a, type: 2}
+      saved: 0
+    - mesh: {fileID: 7655628114347920129, guid: c2b365760cf79e74485a2f74b1ce6278,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: 832fae0928fabaf458368a62e6aa32b4, type: 2}
+      saved: 0
+    texture: {fileID: 2800000, guid: e56e1630026ca974ebe950bfd13ad81a, type: 3}
+  colorUnits:
+  - meshUnits:
+    - mesh: {fileID: -5011709075924863639, guid: 5293d929239494b46ae290ad72b891c4,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: e1db548868838c1418260218e7a60a27, type: 2}
+      saved: 0
+    color: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}

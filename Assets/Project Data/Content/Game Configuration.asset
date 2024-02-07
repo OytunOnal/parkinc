@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e57a27f9d40274f40a6b1f15fbbdc4ad, type: 3}
+  m_Name: Game Configuration
+  m_EditorClassIdentifier: 
+  maxSpeed: 30
+  acceleration: 400
+  colorPacks:
+  - bodyColors:
+    - {r: 1, g: 0.754753, b: 0.3443396, a: 1}
+    - {r: 1, g: 0.5613208, b: 0.5860352, a: 1}
+    - {r: 0.904045, g: 0.740566, b: 1, a: 1}
+    - {r: 0.62470514, g: 1, b: 0.5518868, a: 1}
+    - {r: 1, g: 0.5896226, b: 0.86320746, a: 1}
+    - {r: 0.6462264, g: 0.8928183, b: 1, a: 1}
+    - {r: 1, g: 0.90435255, b: 0.28773582, a: 1}
+    - {r: 0.36209506, g: 0.9716981, b: 0.66157883, a: 1}
+  - bodyColors:
+    - {r: 0.22530258, g: 0.7830189, b: 0.328258, a: 1}
+  - bodyColors:
+    - {r: 0.735849, g: 0.19784619, b: 0.6335343, a: 1}
+  collisionData:
+  - easeFunction: 1
+    duration: 0.1
+    offset: 20
+  - easeFunction: 15
+    duration: 0.1
+    offset: -10
+  - easeFunction: 13
+    duration: 0.1
+    offset: 0

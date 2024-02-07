@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84cf61839f202154aa19ff6829b6fa7e, type: 3}
+  m_Name: Obstacles_First_Skin
+  m_EditorClassIdentifier: 
+  textureUnits:
+  - meshUnits:
+    - mesh: {fileID: -1388485733357891733, guid: 54aad356cffb44f45b45f2665718421f,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: c23b3841bfda7784f822a0502a599be6, type: 2}
+      saved: 0
+    - mesh: {fileID: -3958770277684823056, guid: 54aad356cffb44f45b45f2665718421f,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: 03b10688422218447b5433cf142556b8, type: 2}
+      saved: 0
+    - mesh: {fileID: 1701472051681504416, guid: 54aad356cffb44f45b45f2665718421f,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: 9675108a0e876124980b6da3475dd215, type: 2}
+      saved: 0
+    texture: {fileID: 2800000, guid: e9bc1d28ae84ee7458114fbda8757b48, type: 3}
+  - meshUnits:
+    - mesh: {fileID: -170438996640103443, guid: 6c78cf3465b4053468a329531113953e,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: cb5ee6708909b7f42bb63267fb0f6d2b, type: 2}
+      saved: 0
+    texture: {fileID: 2800000, guid: ab4c1f66829e9ca41bfc7caf4fe64900, type: 3}
+  - meshUnits:
+    - mesh: {fileID: 2292923921706552915, guid: c00139e67a2b5074fac59b56d0c59b87,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: 1750c61f207f1294597afcf61d7728c2, type: 2}
+      saved: 0
+    texture: {fileID: 2800000, guid: ece2b0801048cdd4fa988603decd54a8, type: 3}
+  - meshUnits:
+    - mesh: {fileID: 8414670674471721392, guid: 3ea02eb95a98e2846b4bd27689253f15,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: ffab81bf9aed5c84dba718497ac4e33d, type: 2}
+      saved: 0
+    texture: {fileID: 2800000, guid: 52919adf87ce1314ea8cbeb72337ff58, type: 3}
+  - meshUnits:
+    - mesh: {fileID: 4896582432164254046, guid: 8256b1dbaf74a4a4f9f9bba44d43cb1d,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: a778c987eab23834aa59bee4bad9d4cf, type: 2}
+      saved: 0
+    texture: {fileID: 2800000, guid: 67586adb39e46544dabb189dd32ffc74, type: 3}
+  - meshUnits:
+    - mesh: {fileID: 5683036933849991973, guid: e6681241f91099048a2b311642a9c16f,
+        type: 3}
+      outputMesh: {fileID: 4300000, guid: 91feb06a65d6cc948995a7599357d8a3, type: 2}
+      saved: 0
+    - mesh: {fileID: 405613063272344910, guid: e6681241f91099048a2b311642a9c16f, type: 3}
+      outputMesh: {fileID: 4300000, guid: 76f906c2baf7eb6469501e6667a7d3c7, type: 2}
+      saved: 0
+    texture: {fileID: 2800000, guid: 59e4eff58809dbd4c950f21e958f79ea, type: 3}
+  colorUnits: []

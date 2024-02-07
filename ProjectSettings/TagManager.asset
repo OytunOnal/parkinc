@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Key
+  - WorldSpaceButton
+  - Floor
+  - CoinsGatherPoint
+  - Arrow Sign
+  - Traffic Light
+  - Building 3
+  - Campfire
+  - Timber Axe
+  - Windmill
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Movable
+  - Obstacle
+  - WorldSpaceButton
+  - CoinsSystem
+  - Coin
+  - EnvironmentProp
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: WorldSpace
+    uniqueID: 4179796161
+    locked: 0

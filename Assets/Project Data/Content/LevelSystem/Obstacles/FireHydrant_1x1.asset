@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d4af8ce24c12644eaf2191891250361, type: 3}
+  m_Name: FireHydrant_1x1
+  m_EditorClassIdentifier: 
+  shopIndex: 0
+  size: {x: 1, y: 1}
+  editorTexture:
+    texture: {fileID: 2800000, guid: 29a019144d26cc541a64feb8a7bd6396, type: 3}
+    horizontalOffset: 0
+    verticalOffset: 0
+  fieldElement:
+    texture: {fileID: 2800000, guid: 29a019144d26cc541a64feb8a7bd6396, type: 3}
+    horizontalOffset: 0
+    verticalOffset: 0
+    size: {x: 1, y: 1}
