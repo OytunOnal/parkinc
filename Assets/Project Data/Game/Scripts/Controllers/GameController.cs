@@ -97,7 +97,6 @@ namespace ParkInc
 
             QualitySettings.vSyncCount = 1;
 
-            GameLoading.MarkAsReadyToHide();
         }
 
         public static void StartGame()

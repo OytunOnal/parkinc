@@ -31,7 +31,6 @@ namespace ParkInc
                 SystemCanvas = systemCanvas;
                 InitialiserGameObject = gameObject;
 
-                DontDestroyOnLoad(gameObject);
 
                 initSettings.Init(this);
             }
@@ -54,14 +53,6 @@ namespace ParkInc
 
                 IsStartInitialized = true;
 
-                if (loadingScene)
-                {
-                    GameLoading.LoadGameScene();
-                }
-                else
-                {
-                    GameLoading.SimpleLoad();
-                }
             }
         }
 
