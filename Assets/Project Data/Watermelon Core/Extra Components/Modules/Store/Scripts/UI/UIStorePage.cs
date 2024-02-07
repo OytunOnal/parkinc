@@ -240,22 +240,6 @@ namespace ParkInc
             InitStoreUI();
         }
 
-        public void GetCoinsForAdsButton()
-        {
-            AdsManager.ShowRewardBasedVideo((bool success) =>
-            {
-                if (success)
-                {
-                    CurrencyCloud.SpawnCurrency("Coins", coinsForAdsText.rectTransform, coinsText.rectTransform, 20, "", () =>
-                    {
-                        CurrenciesController.Add(Currency.Type.Coins, StoreController.CoinsForAdsAmount);
-
-                        UpdateCurrentPage(true);
-                    });
-                }
-            });
-        }
-
         public void CloseButton()
         {
             UIController.HidePage<UIStorePage>(() =>

@@ -183,10 +183,6 @@ namespace ParkInc
             // right now result of this method is not used, but otherwise this logic needs to be improved
             else if(product.PurchType == ProductData.PurchaseType.RewardedVideo)
             {
-                AdsManager.ShowRewardBasedVideo((success) =>
-                {
-                    if(success)
-                    {
                         product.RewardedVideoWatchedAmount++;
 
                         if(product.RewardedVideoWatchedAmount >= product.Cost)
@@ -197,8 +193,7 @@ namespace ParkInc
                         }
 
                         storeUI.InitStoreUI();
-                    }
-                });
+                    
             }
 
             return false;

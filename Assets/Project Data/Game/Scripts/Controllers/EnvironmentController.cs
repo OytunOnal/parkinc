@@ -145,17 +145,6 @@ namespace ParkInc
 
         public void GetX3Click()
         {
-            AdsManager.ShowRewardBasedVideo((finished) =>
-            {
-                if (finished)
-                {
-                    GameController.TurnsAfterRewardVideo = 0;
-                    CoinsRain.RainCoins(winAmountOfCoins * 4);
-                    winAmountOfCoins *= 5;
-                    UITouchHandler.Enabled = false;
-                    additionalCoinsAnimation = true;
-                }
-                else
                 {
 
                     GameController.CollectCoins(winAmountOfCoins);
@@ -163,7 +152,6 @@ namespace ParkInc
                     GameController.NextLevel();
 
                 }
-            });
         }
 
         public void CollectCoins()

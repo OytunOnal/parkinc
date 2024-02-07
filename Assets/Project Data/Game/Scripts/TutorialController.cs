@@ -68,7 +68,6 @@ namespace ParkInc
 
                 UIGame gameUI = UIController.GetPage<UIGame>();
                 gameUI.SetReplayButtonVisibility(false);
-                gameUI.SetSkipButtonVisibility(false);
 
             }
             else
@@ -90,8 +89,6 @@ namespace ParkInc
 
                 Active = false;
 
-                //UIController.ShowReplayAndSkipButtons();
-                //UIController.ShowShopButton();
 
                 PointerImage.DOFade(0, 0.5f).OnComplete(() =>
                 {

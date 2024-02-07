@@ -44,13 +44,11 @@ namespace ParkInc
 
         private void OnEnable()
         {
-            AdsManager.ExtraInterstitialReadyConditions += ExtraInterstitialCondition;
             StoreController.OnProductSelected += OnProductSelected;
         }
 
         private void OnDisable()
         {
-            AdsManager.ExtraInterstitialReadyConditions -= ExtraInterstitialCondition;
             StoreController.OnProductSelected -= OnProductSelected;
         }
 
@@ -107,26 +105,17 @@ namespace ParkInc
             StartStage = false;
             LevelController.LoadObstaclesAndCars();
 
-            instance.gameUI.SetSkipButtonVisibility(true);
 
             CameraController.ChangeAngleToGamePosition(LevelController.CurrentLevel);
         }
 
         public static void NextLevel(bool withTransition = true)
         {
-            AdsManager.ShowInterstitial((isDisplayed) =>
-            {
-                if (isDisplayed)
-                {
-                    CalculateNextLevel(withTransition);
-                }
-                else
                 {
                     CalculateNextLevel(withTransition);
                 }
 
                 SaveController.ForceSave();
-            });
         }
 
         private static void CalculateNextLevel(bool withTransition)

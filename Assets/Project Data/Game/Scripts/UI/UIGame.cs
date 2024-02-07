@@ -12,7 +12,6 @@ namespace ParkInc
 
         [Header("Buttons")]
         [SerializeField] Button replayButton;
-        [SerializeField] Button skipButton;
 
         [Header("Coins")]
         [SerializeField] TMP_Text levelText;
@@ -33,19 +32,6 @@ namespace ParkInc
             levelText.text = "LEVEL " + (level + 1);
         }
 
-        public void SkipButton()
-        {
-            GameAudioController.PlayButtonAudio();
-
-            AdsManager.ShowRewardBasedVideo((hasWatched) =>
-            {
-                if (hasWatched)
-                {
-                    GameController.TurnsAfterRewardVideo = 0;
-                    GameController.SkipLevel();
-                }
-            });
-        }
 
         public void FirstLevelButton()
         {
@@ -77,25 +63,6 @@ namespace ParkInc
             {
                 replayButton.image.rectTransform.DOAnchoredPosition(new Vector2(200, 470), 0.5f).SetEasing(Ease.Type.QuadOut);
             }
-        }
-
-        public void SetSkipButtonVisibility(bool isShown)
-        {
-            if (isShown)
-            {
-                skipButton.image.rectTransform.DOAnchoredPosition(Vector3.up * 470f, 0.5f).SetEasing(Ease.Type.QuadOut);
-            }
-            else
-            {
-                skipButton.image.rectTransform.DOAnchoredPosition(new Vector2(-200, 470), 0.5f).SetEasing(Ease.Type.QuadOut);
-            }
-        }
-
-        public void ShopButton()
-        {
-            GameAudioController.PlayButtonAudio();
-
-            StoreController.OpenStore();
         }
 
         public override void Initialise()

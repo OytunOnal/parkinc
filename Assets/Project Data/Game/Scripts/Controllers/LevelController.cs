@@ -102,7 +102,6 @@ namespace ParkInc
             instance.StartCoroutine(LevelObjectsSpawner.SpawnBounceObstacles());
 
             UIGame gameUI = UIController.GetPage<UIGame>();
-            gameUI.SetSkipButtonVisibility(true);
 
             CameraController.ChangeAngleToGamePosition(CurrentLevel);
 
@@ -156,7 +155,6 @@ namespace ParkInc
 
             UIGame gameUI = UIController.GetPage<UIGame>();
             gameUI.SetReplayButtonVisibility(false);
-            gameUI.SetSkipButtonVisibility(false);
 
             CameraController.ChangeAngleToMenuPosition(CurrentLevel);
 
