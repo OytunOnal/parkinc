@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Watermelon
+namespace ParkInc
 {
     [RequireComponent(typeof(RectTransform), typeof(CanvasGroup))]
     public class CurrencyUI : MonoBehaviour

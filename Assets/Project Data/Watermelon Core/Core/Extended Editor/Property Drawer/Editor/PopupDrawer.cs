@@ -2,7 +2,7 @@
 using UnityEngine;
 using System.Linq;
 
-namespace Watermelon
+namespace ParkInc
 {
     [CustomPropertyDrawer(typeof(PopupAttribute))]
     public class PopupDrawer : UnityEditor.PropertyDrawer

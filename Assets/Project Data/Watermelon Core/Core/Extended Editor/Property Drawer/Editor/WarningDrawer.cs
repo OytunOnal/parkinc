@@ -1,6 +1,6 @@
 ﻿using UnityEditor;
 
-namespace Watermelon
+namespace ParkInc
 {
     [CustomPropertyDrawer(typeof(WarningAttribute))]
     public class WarningDrawer : HelpBoxDrawer

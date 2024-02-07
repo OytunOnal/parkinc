@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [CustomPropertyDrawer(typeof(ConstArrayAttribute))]
     public class ConstArrayDrawer : UnityEditor.PropertyDrawer

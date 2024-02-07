@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     public class FloatingTextController : MonoBehaviour
     {

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using TMPro;
 
-namespace Watermelon.Store
+namespace ParkInc
 {
     public class UIStorePage : UIPage
     {

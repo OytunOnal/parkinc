@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Watermelon.Store
+namespace ParkInc
 {
     public class UIStoreItem : MonoBehaviour
     {

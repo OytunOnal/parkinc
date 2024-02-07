@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     public class CarProductBehavior : MonoBehaviour
     {

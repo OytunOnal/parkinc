@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace Watermelon
+namespace ParkInc
 {
     public class FloatingMessage : MonoBehaviour
     {

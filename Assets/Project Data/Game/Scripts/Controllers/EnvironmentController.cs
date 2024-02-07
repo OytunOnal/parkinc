@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-namespace Watermelon
+namespace ParkInc
 {
     public class EnvironmentController : MonoBehaviour
     {

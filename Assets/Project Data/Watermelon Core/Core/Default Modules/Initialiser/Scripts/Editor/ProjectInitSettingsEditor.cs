@@ -4,7 +4,7 @@ using System.Reflection;
 using System.Linq;
 using System;
 
-namespace Watermelon
+namespace ParkInc
 {
     [CustomEditor(typeof(ProjectInitSettings))]
     public class ProjectInitSettingsEditor : WatermelonEditor

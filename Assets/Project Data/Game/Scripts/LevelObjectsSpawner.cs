@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     public class LevelObjectsSpawner : MonoBehaviour
     {

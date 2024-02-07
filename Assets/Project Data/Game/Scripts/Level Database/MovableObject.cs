@@ -1,9 +1,8 @@
 ﻿#pragma warning disable 649
 
 using UnityEngine;
-using Watermelon.Store;
 
-namespace Watermelon
+namespace ParkInc
 {
     [CreateAssetMenu(menuName = "Level Database/Movable Object", fileName = "Movable Object")]
     public class MovableObject : ScriptableObject

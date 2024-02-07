@@ -5,7 +5,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     public class RenameEditorWindow : EditorWindow
     {

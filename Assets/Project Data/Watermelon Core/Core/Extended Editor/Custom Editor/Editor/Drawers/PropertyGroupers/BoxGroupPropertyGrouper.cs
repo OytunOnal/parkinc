@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [PropertyGrouper(typeof(BoxGroupAttribute))]
     public class BoxGroupPropertyGrouper : PropertyGrouper

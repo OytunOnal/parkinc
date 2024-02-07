@@ -2,7 +2,7 @@
 
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [CreateAssetMenu(fileName = "Game Configuration")]
     public class GameConfigurations : ScriptableObject

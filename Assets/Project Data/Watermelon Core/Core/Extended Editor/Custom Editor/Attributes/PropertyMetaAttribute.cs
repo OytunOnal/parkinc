@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Watermelon
+namespace ParkInc
 {
     public class PropertyMetaAttribute : BaseAttribute
     {

@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-namespace Watermelon
+namespace ParkInc
 {
     [RequireComponent(typeof(Graphic)), RequireComponent(typeof(CanvasGroup))]
     public abstract class BaseButton : MonoBehaviour, IPointerUpHandler, IPointerDownHandler

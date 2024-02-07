@@ -10,7 +10,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.Events;
 
 
-namespace Watermelon
+namespace ParkInc
 {
     [RequireComponent(typeof(Image))]
     public class SmartToggle : MonoBehaviour, IPointerUpHandler, IPointerDownHandler

@@ -6,7 +6,7 @@ using System.IO;
 using System.Reflection;
 using System.Collections.Generic;
 
-namespace Watermelon
+namespace ParkInc
 {
     public class AudioSettingsEditorWindow : EditorWindow
     {

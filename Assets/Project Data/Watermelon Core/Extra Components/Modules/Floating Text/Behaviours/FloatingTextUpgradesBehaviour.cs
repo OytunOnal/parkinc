@@ -3,7 +3,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Watermelon
+namespace ParkInc
 {
     public class FloatingTextUpgradesBehaviour : FloatingTextBaseBehaviour
     {

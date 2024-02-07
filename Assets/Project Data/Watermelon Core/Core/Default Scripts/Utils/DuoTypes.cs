@@ -2,7 +2,7 @@
 using Unity.Mathematics;
 using System.Runtime.CompilerServices;
 
-namespace Watermelon
+namespace ParkInc
 {
     [System.Serializable]
     public class DuoInt

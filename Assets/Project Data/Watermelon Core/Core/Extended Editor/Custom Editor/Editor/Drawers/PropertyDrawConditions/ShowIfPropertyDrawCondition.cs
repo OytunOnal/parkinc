@@ -2,7 +2,7 @@ using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [PropertyDrawCondition(typeof(ShowIfAttribute))]
     public class ShowIfPropertyDrawCondition : PropertyDrawCondition

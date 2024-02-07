@@ -3,7 +3,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [CreateAssetMenu(fileName = "Tutorials Database")]
     public class TutorialDatabase : ScriptableObject

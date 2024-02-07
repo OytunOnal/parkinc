@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Watermelon
+namespace ParkInc
 {
     public abstract class TweenCase
     {

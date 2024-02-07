@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Watermelon.UI.Particle
+namespace ParkInc.UI.Particle
 {
     [CreateAssetMenu(menuName = "Content/Data/Custom UI Particle Settings", fileName = "Custom UI Particle Settings")]
     public class UIParticleSettings : ScriptableObject

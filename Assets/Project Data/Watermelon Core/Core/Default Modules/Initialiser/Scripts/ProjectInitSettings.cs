@@ -2,7 +2,7 @@
 
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [SetupTab("Init Settings", priority = 1, texture = "icon_puzzle")]
     [CreateAssetMenu(fileName = "Project Init Settings", menuName = "Settings/Project Init Settings")]

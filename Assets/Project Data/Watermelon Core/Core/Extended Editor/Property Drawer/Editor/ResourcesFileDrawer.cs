@@ -2,7 +2,7 @@
 using UnityEditor;
 using System.Linq;
 
-namespace Watermelon
+namespace ParkInc
 {
     [CustomPropertyDrawer(typeof(ResourcesFileAttribute))]
     public class ResourcesFileDrawer : UnityEditor.PropertyDrawer

@@ -3,9 +3,8 @@
 using System;
 using System.Configuration;
 using UnityEngine;
-using Watermelon.Store;
 
-namespace Watermelon
+namespace ParkInc
 {
     public class GameController : MonoBehaviour
     {

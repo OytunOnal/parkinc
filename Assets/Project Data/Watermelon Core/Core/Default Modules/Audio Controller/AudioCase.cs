@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using UnityEngine;
-using AudioType = Watermelon.AudioController.AudioType;
+using AudioType = ParkInc.AudioController.AudioType;
 
-namespace Watermelon
+namespace ParkInc
 {
     [System.Serializable]
     public class AudioCase

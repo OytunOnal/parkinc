@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Watermelon
+namespace ParkInc
 {
     public static class TMPUtils
     {

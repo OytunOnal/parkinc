@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [CreateAssetMenu(fileName = "Define Settings", menuName = "Settings/Editor/Define Settings")]
     [HelpURL("https://docs.google.com/document/d/1uGv7AewHFS5ONmfSaZrGAxajTERczRw2PDVwgsO12AU")]

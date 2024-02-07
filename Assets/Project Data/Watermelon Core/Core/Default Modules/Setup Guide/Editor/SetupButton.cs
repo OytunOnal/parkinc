@@ -2,7 +2,7 @@
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace Watermelon
+namespace ParkInc
 {
     [System.Serializable]
     public abstract class SetupButton

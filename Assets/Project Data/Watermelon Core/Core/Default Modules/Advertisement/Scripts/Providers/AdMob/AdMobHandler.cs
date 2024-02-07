@@ -9,7 +9,7 @@ using GoogleMobileAds.Api;
 using Reward = GoogleMobileAds.Api.Reward;
 #endif
 
-namespace Watermelon
+namespace ParkInc
 {
 #if MODULE_ADMOB
     public class AdMobHandler : AdvertisingHandler

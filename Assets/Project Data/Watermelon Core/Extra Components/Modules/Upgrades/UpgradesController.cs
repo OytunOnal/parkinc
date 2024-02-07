@@ -1,10 +1,8 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-namespace Watermelon
+namespace ParkInc
 {
-    using Upgrades;
-
     public class UpgradesController : MonoBehaviour
     {
         private const string SAVE_IDENTIFIER = "upgrades:{0}";

@@ -1,9 +1,7 @@
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
-    using Upgrades;
-
     [CreateAssetMenu(menuName = "Content/Upgrades/Example Upgrade", fileName = "Example Upgrade")]
     public class ExampleUpgrade : Upgrade<ExampleUpgrade.Stage>
     {

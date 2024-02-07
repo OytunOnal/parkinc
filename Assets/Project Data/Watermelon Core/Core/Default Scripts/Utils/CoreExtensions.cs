@@ -9,7 +9,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
-namespace Watermelon
+namespace ParkInc
 {
     public static class CoreExtensions
     {

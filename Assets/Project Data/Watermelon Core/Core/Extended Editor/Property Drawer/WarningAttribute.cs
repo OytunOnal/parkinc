@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Watermelon
+namespace ParkInc
 {
     [AttributeUsage(AttributeTargets.Field, AllowMultiple = true, Inherited = true)]
     public class WarningAttribute : HelpBoxAttribute

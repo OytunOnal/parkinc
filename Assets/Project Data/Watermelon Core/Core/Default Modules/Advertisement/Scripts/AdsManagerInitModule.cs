@@ -5,7 +5,7 @@ using UnityEngine;
 using Unity.Advertisement.IosSupport;
 #endif
 
-namespace Watermelon
+namespace ParkInc
 {
     [RegisterModule("Services/Ads Manager")]
     public class AdsManagerInitModule : InitModule

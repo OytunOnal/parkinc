@@ -2,7 +2,7 @@
 
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [CreateAssetMenu(menuName = "Level Database/Level Database", fileName = "Level Database")]
     public class LevelDatabase : ScriptableObject

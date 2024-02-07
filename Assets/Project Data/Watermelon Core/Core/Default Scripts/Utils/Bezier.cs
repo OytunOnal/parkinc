@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
 
     // Path Module v1.0.0

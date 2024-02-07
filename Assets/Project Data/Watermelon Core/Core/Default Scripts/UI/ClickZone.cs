@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Watermelon
+namespace ParkInc
 {
     public class ClickZone : MonoBehaviour, IPointerClickHandler
     {

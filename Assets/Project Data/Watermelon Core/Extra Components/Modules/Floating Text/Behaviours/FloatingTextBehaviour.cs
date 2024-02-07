@@ -3,7 +3,7 @@
 using TMPro;
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     public class FloatingTextBehaviour : FloatingTextBaseBehaviour
     {

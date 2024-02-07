@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Watermelon
+namespace ParkInc
 {
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = false, Inherited = true)]
     public class ButtonAttribute : DrawerAttribute

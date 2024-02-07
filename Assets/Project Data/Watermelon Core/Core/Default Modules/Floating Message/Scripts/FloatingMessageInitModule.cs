@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [RegisterModule("Modules/Floating Message")]
     public class FloatingMessageInitModule : InitModule

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [System.Serializable]
     public class UnityAdsLegacyContainer

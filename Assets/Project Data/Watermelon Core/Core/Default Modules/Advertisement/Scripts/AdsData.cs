@@ -2,7 +2,7 @@
 
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [SetupTab("Advertising", texture = "icon_ads")]
     [CreateAssetMenu(fileName = "Ads Settings", menuName = "Settings/Ads Settings")]

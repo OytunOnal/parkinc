@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Runtime.InteropServices;
 
-namespace Watermelon
+namespace ParkInc
 {
     public class Vibration
     {

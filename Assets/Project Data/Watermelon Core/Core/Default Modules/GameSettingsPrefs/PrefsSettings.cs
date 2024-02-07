@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [CreateAssetMenu(fileName = "Prefs Settings", menuName = "Settings/Prefs Settings")]
     public partial class PrefsSettings : ScriptableObject

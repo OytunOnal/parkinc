@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Watermelon
+namespace ParkInc
 {
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = true)]
     public class RequireSettingAttribute : Attribute

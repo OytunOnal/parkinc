@@ -3,7 +3,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [CreateAssetMenu(fileName = "Settings Position Animation", menuName = "Content/Settings Animation/Position")]
     public class SettingsPositionAnimation : SettingsAnimation

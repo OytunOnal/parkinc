@@ -2,9 +2,8 @@
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
-using Watermelon.Store;
 
-namespace Watermelon
+namespace ParkInc
 {
     public class UIGame : UIPage
     {

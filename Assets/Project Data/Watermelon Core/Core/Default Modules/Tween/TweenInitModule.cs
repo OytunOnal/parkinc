@@ -2,7 +2,7 @@
 
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [RegisterModule("Core/Tween")]
     public class TweenInitModule : InitModule

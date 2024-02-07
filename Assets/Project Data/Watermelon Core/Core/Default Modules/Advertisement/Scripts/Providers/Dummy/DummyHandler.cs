@@ -1,7 +1,7 @@
 ﻿
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     public class DummyHandler : AdvertisingHandler
     {

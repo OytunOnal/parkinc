@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.Advertisements;
 #endif
 
-namespace Watermelon
+namespace ParkInc
 {
 #if MODULE_UNITYADS
     public class UnityAdsLegacyHandler : AdvertisingHandler

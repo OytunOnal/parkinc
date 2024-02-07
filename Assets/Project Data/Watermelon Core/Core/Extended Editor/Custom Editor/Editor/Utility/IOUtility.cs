@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.IO;
 
-namespace Watermelon
+namespace ParkInc
 {
     public static class IOUtility
     {

@@ -2,7 +2,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-namespace Watermelon
+namespace ParkInc
 {
     [Serializable]
     public class GlobalSave

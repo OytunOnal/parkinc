@@ -3,7 +3,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     public abstract class SettingsAnimation : ScriptableObject
     {

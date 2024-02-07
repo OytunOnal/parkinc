@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Watermelon.Store
+namespace ParkInc
 {
     public class StoreController : MonoBehaviour
     {

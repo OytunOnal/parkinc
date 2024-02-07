@@ -1,4 +1,4 @@
-﻿namespace Watermelon
+﻿namespace ParkInc
 {
     public abstract class AdvertisingHandler
     {

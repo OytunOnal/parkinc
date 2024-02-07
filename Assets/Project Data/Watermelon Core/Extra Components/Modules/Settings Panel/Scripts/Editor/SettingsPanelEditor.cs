@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEditorInternal;
 
-namespace Watermelon
+namespace ParkInc
 {
     [CustomEditor(typeof(SettingsPanel))]
     public class SettingsPanelEditor : WatermelonEditor

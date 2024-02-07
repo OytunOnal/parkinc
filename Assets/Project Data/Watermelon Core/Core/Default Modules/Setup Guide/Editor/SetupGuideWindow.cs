@@ -7,7 +7,7 @@ using System;
 using System.Linq;
 using Object = UnityEngine.Object;
 
-namespace Watermelon
+namespace ParkInc
 {
     public class SetupGuideWindow : WatermelonWindow
     {

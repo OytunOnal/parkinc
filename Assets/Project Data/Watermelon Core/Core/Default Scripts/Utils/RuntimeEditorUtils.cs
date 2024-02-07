@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEditor;
 #endif
 
-namespace Watermelon
+namespace ParkInc
 {
     public static class RuntimeEditorUtils
     {

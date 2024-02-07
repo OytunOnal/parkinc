@@ -1,6 +1,6 @@
 ﻿using UnityEditor;
 
-namespace Watermelon
+namespace ParkInc
 {
     [CustomPropertyDrawer(typeof(ErrorAttribute))]
     public class ErrorDrawer : HelpBoxDrawer

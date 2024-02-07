@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [CustomPropertyDrawer(typeof(ScenesAttribute))]
     public class ScenesPropertyDrawer : UnityEditor.PropertyDrawer

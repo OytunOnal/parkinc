@@ -1,10 +1,10 @@
+using ParkInc.UI.Particle;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
-    using Watermelon.UI.Particle;
 
     public class UIParticleTrail : MonoBehaviour
     {

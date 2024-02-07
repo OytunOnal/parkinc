@@ -5,7 +5,7 @@ using UnityEditor.Build;
 using UnityEditor.Build.Reporting;
 using UnityEngine;
 
-namespace Watermelon {
+namespace ParkInc {
     public class AdmobBuildHandler : IPreprocessBuildWithReport
     {
         public int callbackOrder => -5;

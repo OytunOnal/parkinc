@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [SetupTab("Audio", texture = "icon_audio")]
     [CreateAssetMenu(fileName = "Audio Settings", menuName = "Settings/Audio Settings")]

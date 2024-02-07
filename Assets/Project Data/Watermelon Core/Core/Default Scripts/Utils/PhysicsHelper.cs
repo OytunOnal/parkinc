@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     public static class PhysicsHelper
     {

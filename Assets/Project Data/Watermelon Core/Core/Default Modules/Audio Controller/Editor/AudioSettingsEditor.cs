@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 using UnityEditor;
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [CustomEditor(typeof(AudioSettings))]
     public class AudioSettingsEditor : WatermelonEditor
@@ -349,7 +349,7 @@ namespace Watermelon
             stringBuilder.AppendLine();
             stringBuilder.Append("using UnityEngine;");
             stringBuilder.AppendLine();
-            stringBuilder.Append("namespace Watermelon");
+            stringBuilder.Append("namespace ParkInc");
             stringBuilder.AppendLine();
             stringBuilder.Append("{");
             stringBuilder.AppendLine();

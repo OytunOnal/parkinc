@@ -2,7 +2,7 @@ using System;
 using UnityEditor;
 using UnityEngine;
 
-namespace Watermelon.List
+namespace ParkInc
 {
     [Serializable]
     public class CustomListStyle

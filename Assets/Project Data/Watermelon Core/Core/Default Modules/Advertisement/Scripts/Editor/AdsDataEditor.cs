@@ -3,7 +3,7 @@ using UnityEditor;
 using System.Collections.Generic;
 using System;
 
-namespace Watermelon
+namespace ParkInc
 {
     [CustomEditor(typeof(AdsData))]
     public class AdsDataEditor : WatermelonEditor

@@ -3,7 +3,7 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [CustomEditor(typeof(IAPSettings))]
     public class IAPSettingsEditor : WatermelonEditor
@@ -316,7 +316,7 @@ namespace Watermelon
             private void RegenerateEnum()
             {
                 System.Text.StringBuilder sb = new System.Text.StringBuilder();
-                sb.AppendLine("namespace Watermelon");
+                sb.AppendLine("namespace ParkInc");
                 sb.AppendLine("{");
                 sb.AppendLine("    public enum ProductKeyType");
                 sb.AppendLine("    {");

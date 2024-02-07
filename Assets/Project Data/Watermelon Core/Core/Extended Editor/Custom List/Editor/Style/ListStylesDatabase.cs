@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Watermelon.List
+namespace ParkInc
 {
     [CreateAssetMenu(fileName = "StylesDatabase", menuName = "Create styles data", order = 2)]
     public class ListStylesDatabase : ScriptableObject

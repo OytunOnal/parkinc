@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [RequireComponent(typeof(Animator))]
     public class BuildingSign : MonoBehaviour, EnvironmentProp

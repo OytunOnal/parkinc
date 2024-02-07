@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Watermelon.Upgrades
+namespace ParkInc
 {
     [System.Serializable]
     public abstract class BaseUpgradeStage

@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEditor.SceneManagement;
 
-namespace Watermelon
+namespace ParkInc
 {
     public abstract class WatermelonEditor : Editor
     {

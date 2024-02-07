@@ -9,7 +9,7 @@ using Unity.Services.Core;
 using Unity.Services.Core.Environments;
 #endif
 
-namespace Watermelon
+namespace ParkInc
 {
     [Define("MODULE_IAP")]
     [HelpURL("https://docs.google.com/document/d/1GlS55aF4z4Ddn4a1QCu5h0152PoOb29Iy4y9RKZ9Y9Y")]
@@ -333,7 +333,7 @@ namespace Watermelon
 
         public delegate void OnPurchaseModuleInittedCallback();
         public delegate void OnPurchaseCompleteCallback(ProductKeyType productKeyType);
-        public delegate void OnPurchaseFaildedCallback(ProductKeyType productKeyType, Watermelon.PurchaseFailureReason failureReason);
+        public delegate void OnPurchaseFaildedCallback(ProductKeyType productKeyType, ParkInc.PurchaseFailureReason failureReason);
     }
 
     public enum PurchaseFailureReason

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [RequireSetting("Vibration", PrefsSettings.FieldType.Bool)]
     [RequireSetting("Volume", PrefsSettings.FieldType.Float)]

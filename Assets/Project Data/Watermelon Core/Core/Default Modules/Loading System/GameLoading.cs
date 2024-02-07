@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 
-namespace Watermelon
+namespace ParkInc
 {
     public static class GameLoading
     {

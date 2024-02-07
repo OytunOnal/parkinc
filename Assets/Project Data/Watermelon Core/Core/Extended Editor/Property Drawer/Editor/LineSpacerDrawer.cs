@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-namespace Watermelon
+namespace ParkInc
 {
     [CustomPropertyDrawer(typeof(LineSpacerAttribute))]
     public class LineSpacerDrawer : DecoratorDrawer

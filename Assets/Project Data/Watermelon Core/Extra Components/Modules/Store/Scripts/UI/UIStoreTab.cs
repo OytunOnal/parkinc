@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Watermelon.Store
+namespace ParkInc
 {
     [RequireComponent(typeof(Button))]
     public class UIStoreTab : MonoBehaviour

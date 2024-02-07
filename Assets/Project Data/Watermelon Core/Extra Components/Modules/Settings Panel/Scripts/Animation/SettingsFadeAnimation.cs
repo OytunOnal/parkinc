@@ -3,7 +3,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [CreateAssetMenu(fileName = "Settings Fade Animation", menuName = "Content/Settings Animation/Fade")]
     public class SettingsFadeAnimation : SettingsAnimation

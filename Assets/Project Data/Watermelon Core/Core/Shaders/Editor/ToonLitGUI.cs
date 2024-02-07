@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-namespace Watermelon.Shader
+namespace ParkInc
 {
     public class ToonLitGUI : ShaderGUI
     {

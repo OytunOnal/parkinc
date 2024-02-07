@@ -3,7 +3,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [CreateAssetMenu(fileName = "Settings Scale Animation", menuName = "Content/Settings Animation/Scale")]
     public class SettingsScaleAnimation : SettingsAnimation

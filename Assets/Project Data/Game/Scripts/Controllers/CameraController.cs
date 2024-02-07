@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Rendering.Universal;
 
-namespace Watermelon
+namespace ParkInc
 {
     public class CameraController : MonoBehaviour
     {

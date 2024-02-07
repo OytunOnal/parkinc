@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [SetupTab("IAP", texture = "icon_iap")]
     [CreateAssetMenu(fileName = "IAP Settings", menuName = "Settings/IAP Settings")]

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Watermelon.Upgrades
+namespace ParkInc
 {
     public abstract class Upgrade<T> : BaseUpgrade where T : BaseUpgradeStage
     {

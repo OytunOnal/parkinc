@@ -5,7 +5,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
 
-namespace Watermelon
+namespace ParkInc
 {
     [Define("MODULE_ADMOB")]
     [Define("MODULE_UNITYADS")]

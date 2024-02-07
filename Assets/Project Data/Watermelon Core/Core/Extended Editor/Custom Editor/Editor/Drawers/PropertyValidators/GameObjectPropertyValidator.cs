@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-namespace Watermelon
+namespace ParkInc
 {
     [PropertyValidator(typeof(GameObjectTagAttribute))]
     public class GameObjectPropertyValidator : PropertyValidator

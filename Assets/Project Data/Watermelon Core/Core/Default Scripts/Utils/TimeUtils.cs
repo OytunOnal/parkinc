@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Watermelon
+namespace ParkInc
 {
     public static class TimeUtils
     {

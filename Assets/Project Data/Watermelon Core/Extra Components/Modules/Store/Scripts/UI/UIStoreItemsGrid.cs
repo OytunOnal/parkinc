@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Watermelon.Store
+namespace ParkInc
 {
     public class UIStoreItemsGrid : MonoBehaviour
     {

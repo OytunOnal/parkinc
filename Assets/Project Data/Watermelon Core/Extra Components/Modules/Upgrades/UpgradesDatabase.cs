@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Watermelon.Upgrades
+namespace ParkInc
 {
     [CreateAssetMenu(fileName = "Upgrades Database", menuName = "Content/Upgrades/Upgrades Database")]
     public class UpgradesDatabase : ScriptableObject

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [RegisterModule("Modules/Simple Outline")]
     public class SimpleOutlineInitModule : InitModule

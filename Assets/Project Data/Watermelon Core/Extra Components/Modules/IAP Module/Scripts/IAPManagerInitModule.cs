@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     [RegisterModule("Services/IAP Manager")]
     public class IAPManagerInitModule : InitModule

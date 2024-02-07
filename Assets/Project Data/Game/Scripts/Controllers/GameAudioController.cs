@@ -5,7 +5,7 @@ using MoreMountains.NiceVibrations;
 #endif
 using UnityEngine;
 
-namespace Watermelon
+namespace ParkInc
 {
     public class GameAudioController : MonoBehaviour
     {

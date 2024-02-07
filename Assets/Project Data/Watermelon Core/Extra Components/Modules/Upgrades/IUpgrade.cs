@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Watermelon.Upgrades
+namespace ParkInc
 {
     public interface IUpgrade
     {

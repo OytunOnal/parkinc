@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Watermelon;
 
-namespace Watermelon
+
+namespace ParkInc
 {
 
     public partial class ParticlesController : MonoBehaviour
