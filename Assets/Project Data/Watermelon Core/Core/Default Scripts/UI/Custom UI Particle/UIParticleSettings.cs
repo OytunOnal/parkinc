@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace ParkInc.UI.Particle
 {
-    [CreateAssetMenu(menuName = "Content/Data/Custom UI Particle Settings", fileName = "Custom UI Particle Settings")]
+    [CreateAssetMenu(menuName = "Games/ParkInc/Content/Data/Custom UI Particle Settings", fileName = "Custom UI Particle Settings")]
     public class UIParticleSettings : ScriptableObject
     {
         public GameObject uiParticlePrefab;

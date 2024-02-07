@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace ParkInc
 {
-    [CreateAssetMenu(fileName = "Game Configuration")]
+    [CreateAssetMenu(fileName = "Game Configuration", menuName = "Games/ParkInc/Game Configuration")]
     public class GameConfigurations : ScriptableObject
     {
         [Header("Cars Configurations")]

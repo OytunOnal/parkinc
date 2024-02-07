@@ -3,7 +3,7 @@
 namespace ParkInc
 {
     [SetupTab("Audio", texture = "icon_audio")]
-    [CreateAssetMenu(fileName = "Audio Settings", menuName = "Settings/Audio Settings")]
+    [CreateAssetMenu(fileName = "Audio Settings", menuName = "Games/ParkInc/Settings/Audio Settings")]
     public class AudioSettings : ScriptableObject
     {
         [SerializeField] Music music;

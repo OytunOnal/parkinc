@@ -2,7 +2,7 @@
 
 namespace ParkInc
 {
-    [CreateAssetMenu(fileName = "Currencies Database", menuName = "Content/Currencies/Currencies Database")]
+    [CreateAssetMenu(fileName = "Currencies Database", menuName = "Games/ParkInc/Content/Currencies/Currencies Database")]
     public class CurrenciesDatabase : ScriptableObject
     {
         [SerializeField] Currency[] currencies;

@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace ParkInc
 {
-    [CreateAssetMenu(fileName = "Store Database", menuName = "Content/Data/Store Database New")]
+    [CreateAssetMenu(fileName = "Store Database", menuName = "Games/ParkInc/Content/Data/Store Database New")]
     public class StoreDatabase : ScriptableObject
     {
         [SerializeField] TabData[] tabs;

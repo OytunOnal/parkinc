@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace ParkInc
 {
-    [CreateAssetMenu(fileName = "Tutorials Database")]
+    [CreateAssetMenu(fileName = "Tutorials Database", menuName = "Games/ParkInc/Tutorials Database")]
     public class TutorialDatabase : ScriptableObject
     {
         [SerializeField] List<TutorialInfo> tutorials;

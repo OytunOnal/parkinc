@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace ParkInc
 {
-    [CreateAssetMenu(menuName = "Level Database/Movable Object", fileName = "Movable Object")]
+    [CreateAssetMenu(menuName = "Games/ParkInc/Level Database/Movable Object", fileName = "Movable Object")]
     public class MovableObject : ScriptableObject
     {
         [SerializeField] int shopIndex;

@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace ParkInc
 {
-    [CreateAssetMenu(menuName = "Level Database/Obstacle", fileName = "Obstacle")]
+    [CreateAssetMenu(menuName = "Games/ParkInc/Level Database/Obstacle", fileName = "Obstacle")]
     public class Obstacle : ScriptableObject
     {
         [SerializeField] int shopIndex;

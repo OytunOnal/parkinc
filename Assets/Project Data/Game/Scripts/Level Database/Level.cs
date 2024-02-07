@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace ParkInc
 {
-    [CreateAssetMenu(menuName = "Level Database/Level", fileName = "Level")]
+    [CreateAssetMenu(menuName = "Games/ParkInc/Level Database/Level", fileName = "Level")]
     public class Level : ScriptableObject
     {
         [SerializeField] Vector2Int size;

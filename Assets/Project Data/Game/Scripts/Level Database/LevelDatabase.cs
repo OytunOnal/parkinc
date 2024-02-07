@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace ParkInc
 {
-    [CreateAssetMenu(menuName = "Level Database/Level Database", fileName = "Level Database")]
+    [CreateAssetMenu(menuName = "Games/ParkInc/Level Database/Level Database", fileName = "Level Database")]
     public class LevelDatabase : ScriptableObject
     {
         [SerializeField] Level[] levels;

@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace ParkInc
 {
-    [CreateAssetMenu(fileName = "StylesDatabase", menuName = "Create styles data", order = 2)]
+    [CreateAssetMenu(fileName = "StylesDatabase", menuName = "Games/ParkInc/Games/ParkInc/Create styles data", order = 2)]
     public class ListStylesDatabase : ScriptableObject
     {
         [SerializeField] List<CustomListStyle> styles;

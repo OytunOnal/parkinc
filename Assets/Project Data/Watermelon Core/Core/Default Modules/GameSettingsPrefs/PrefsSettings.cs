@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace ParkInc
 {
-    [CreateAssetMenu(fileName = "Prefs Settings", menuName = "Settings/Prefs Settings")]
+    [CreateAssetMenu(fileName = "Prefs Settings", menuName = "Games/ParkInc/Settings/Prefs Settings")]
     public partial class PrefsSettings : ScriptableObject
     {
         private static PrefsSettings prefsSettings;

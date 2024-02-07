@@ -2,7 +2,7 @@
 
 namespace ParkInc
 {
-    [CreateAssetMenu(fileName = "Easing Settings", menuName = "Settings/Tween Easing Settings")]
+    [CreateAssetMenu(fileName = "Easing Settings", menuName = "Games/ParkInc/Settings/Tween Easing Settings")]
     public class EasingSettings : ScriptableObject
     {
         [SerializeField] CustomEasingFunction[] customEasingFunctions;
