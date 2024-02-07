@@ -21,7 +21,6 @@ namespace ParkInc
 
         public delegate void ProductDelegate(TabType tab, ProductData product);
         public static event ProductDelegate OnProductSelected;
-        private static UIStorePage storeUI;
 
         private void Awake()
         {
@@ -31,7 +30,6 @@ namespace ParkInc
         public static void Init()
         {
             products = Database.Init();
-            storeUI = UIController.GetPage<UIStorePage>();
 
             InitDefaultProducts();
             InitSelectedProducts();
@@ -125,20 +123,6 @@ namespace ParkInc
             return products[tab].Count;
         }
 
-        public static void OpenStore()
-        {
-            storeUI.InitTabs(OnTabClicked);
-
-            UIController.ShowPage<UIStorePage>();
-        }
-
-        private static void OnTabClicked(TabData data)
-        {
-            SelectedTabData = data;
-
-            storeUI.SetSelectedTab(data);
-        }
-
         public static bool SelectProduct(ProductData product)
         {
             if (!product.IsUnlocked)
@@ -148,8 +132,6 @@ namespace ParkInc
             Database[tab.Type] = product.UniqueId;
 
             selectedProducts[tab.Type] = product;
-
-            storeUI.InitStoreUI();
 
             OnProductSelected?.Invoke(tab.Type, product);
 
@@ -191,8 +173,6 @@ namespace ParkInc
                             if (select)
                                 SelectProduct(product);
                         }
-
-                        storeUI.InitStoreUI();
                     
             }
 

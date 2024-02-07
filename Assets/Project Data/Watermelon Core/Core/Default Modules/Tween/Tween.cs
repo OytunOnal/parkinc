@@ -102,7 +102,6 @@ namespace ParkInc
             {
                 instance = this;
 
-                DontDestroyOnLoad(gameObject);
             }
 #if UNITY_EDITOR
             else
