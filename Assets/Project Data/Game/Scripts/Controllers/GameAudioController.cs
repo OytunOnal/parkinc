@@ -39,22 +39,12 @@ namespace ParkInc
 
             if (!AudioController.IsVibrationEnabled()) return;
 
-#if MODULE_VIBRATION
-        MMVibrationManager.Haptic(HapticTypes.LightImpact, true);
-#else
-            Vibration.Vibrate(AudioController.Vibrations.shortVibration);
-#endif
         }
 
         public static void VibrateLevelFinish()
         {
             if (!AudioController.IsVibrationEnabled()) return;
 
-#if MODULE_VIBRATION
-        MMVibrationManager.Haptic(HapticTypes.Success, true);
-#else
-            Vibration.Vibrate(AudioController.Vibrations.longVibration);
-#endif
         }
 
         public static void PlayButtonAudio()
