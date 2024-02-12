@@ -30,31 +30,33 @@ namespace ParkInc
 
         public void ShowStartPanel()
         {
-            startCanvas.gameObject.SetActive(true);
 
-            titleImage.color = titleImage.color.SetAlpha(0);
-            tapToPlayText.rectTransform.localScale = Vector3.zero;
+            //GameController.StartGame();
+            //startCanvas.gameObject.SetActive(true);
 
-            titleImage.DOFade(1, 0.5f).OnComplete(() =>
-            {
+            //titleImage.color = titleImage.color.SetAlpha(0);
+            //tapToPlayText.rectTransform.localScale = Vector3.zero;
 
-                UITouchHandler.Enabled = true;
+            //titleImage.DOFade(1, 0.5f).OnComplete(() =>
+            //{
 
-                tapToPlayText.rectTransform.DOScale(1, 2f).SetEasing(Ease.Type.BackOut).OnComplete(() =>
-                {
+            UITouchHandler.Enabled = true;
 
-                    if (!gameObject.activeInHierarchy) return;
+            //    tapToPlayText.rectTransform.DOScale(1, 2f).SetEasing(Ease.Type.BackOut).OnComplete(() =>
+            //    {
 
-                    tapToPlayText.transform.DOScale(Vector3.one * shrinkageScale, shrinkageDuration / 2).SetEasing(Ease.Type.SineOut).OnComplete(() =>
-                    {
-                        if (!gameObject.activeInHierarchy) return;
+            //        if (!gameObject.activeInHierarchy) return;
 
-                        StartCoroutine(TapTextScale());
+            //        tapToPlayText.transform.DOScale(Vector3.one * shrinkageScale, shrinkageDuration / 2).SetEasing(Ease.Type.SineOut).OnComplete(() =>
+            //        {
+            //            if (!gameObject.activeInHierarchy) return;
 
-                    });
+            //            StartCoroutine(TapTextScale());
 
-                });
-            });
+            //        });
+
+            //    });
+            //});
         }
 
         private IEnumerator TapTextScale()

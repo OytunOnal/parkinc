@@ -70,11 +70,10 @@ namespace ParkInc
             Vector3 centerPoint = new Vector3(level.Size.x, 0, level.Size.y) / 2f;
 
             float width = level.Size.x + 5;
+            ChangeAngleToGamePosition(level);
+            //Position = GetCameraPosition(centerPoint, width, Quaternion.Euler(Euler.x, 0, Euler.z) * Vector3.forward);
 
-            Position = GetCameraPosition(centerPoint, width, Quaternion.Euler(Euler.x, 0, Euler.z) * Vector3.forward);
-
-            Euler = Euler.SetY(0);
-
+            //Euler = Euler.SetY(0);
             //URP.shadowDistance = (Position - Vector3.forward * (level.Size.y + 40)).magnitude;
         }
 

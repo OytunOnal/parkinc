@@ -4,6 +4,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using System;
 
 namespace ParkInc
 {
@@ -363,6 +364,14 @@ namespace ParkInc
         public void BlendToClear()
         {
             StartCoroutine(BlendCoroutine(0, 1));
+            StartCoroutine(NextLevelCoroutine());
+        }
+
+        private IEnumerator NextLevelCoroutine()
+        {
+            yield return new WaitForSeconds(2);
+            GameController.TurnsAfterRewardVideo++;
+            GameController.NextLevel();
         }
 
         public Vector3 GetFinishPosition(Transform roadTransform)

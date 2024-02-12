@@ -79,10 +79,10 @@ namespace ParkInc
                 GameController.NextLevel();
             }
 
-            if (GameController.StartStage)
-            {
-                GameController.StartGame();
-            }
+            //if (GameController.StartStage)
+            //{
+            //    GameController.StartGame();
+            //}
 
             Ray ray = CameraController.MainCamera.ScreenPointToRay(eventData.position);
             RaycastHit hit;

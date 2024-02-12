@@ -180,11 +180,11 @@ namespace ParkInc
         {
             Level level = LevelDatabase.GetLevel(levelId);
 
-            if (withLogo)
-            {
-                LevelController.InitLevelWithLogo(level);
-            }
-            else
+            //if (withLogo)
+            //{
+            //    LevelController.InitLevelWithLogo(level);
+            //}
+            //else
             {
                 LevelController.InitLevel(level);
             }

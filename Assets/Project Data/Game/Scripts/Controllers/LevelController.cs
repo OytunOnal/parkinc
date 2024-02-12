@@ -32,7 +32,7 @@ namespace ParkInc
 
             Environment = environmentObject.GetComponent<EnvironmentController>();
             Environment.LinkPanels(instance.winPanel, instance.startPanel);
-
+            
             LevelPoolHandler.InitPools();
         }
 
@@ -147,16 +147,17 @@ namespace ParkInc
             instance.StartCoroutine(LevelObjectsSpawner.HideBounceObstacles());
             Environment.BlendToClear();
 
-            int coinsAmount = CurrentLevel.MovableObjects.Length * 2;
-            if (coinsAmount < 15) coinsAmount = 14 + GameController.CurrentLevelId % 2;
-            if (coinsAmount > 25) coinsAmount = 24 + GameController.CurrentLevelId % 2;
+            //int coinsAmount = CurrentLevel.MovableObjects.Length * 2;
+            //if (coinsAmount < 15) coinsAmount = 14 + GameController.CurrentLevelId % 2;
+            //if (coinsAmount > 25) coinsAmount = 24 + GameController.CurrentLevelId % 2;
 
-            Environment.ShowWinPanel(CurrentLevel, coinsAmount);
+            //Environment.ShowWinPanel(CurrentLevel, coinsAmount);
 
             UIGame gameUI = UIController.GetPage<UIGame>();
-            gameUI.SetReplayButtonVisibility(false);
+            //gameUI.SetReplayButtonVisibility(false);
 
-            CameraController.ChangeAngleToMenuPosition(CurrentLevel);
+            //CameraController.ChangeAngleToMenuPosition(CurrentLevel);
+
 
         }
 
