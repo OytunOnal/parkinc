@@ -145,7 +145,6 @@ namespace ParkInc
         {
             UITouchHandler.Enabled = false;
             instance.StartCoroutine(LevelObjectsSpawner.HideBounceObstacles());
-            Environment.BlendToClear();
 
             //int coinsAmount = CurrentLevel.MovableObjects.Length * 2;
             //if (coinsAmount < 15) coinsAmount = 14 + GameController.CurrentLevelId % 2;

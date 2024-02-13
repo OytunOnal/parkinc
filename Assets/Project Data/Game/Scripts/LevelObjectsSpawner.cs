@@ -196,6 +196,8 @@ namespace ParkInc
             obstacles.Clear();
 
             LevelPoolHandler.ReturnObstaclesToPool();
+
+            LevelController.Environment.BlendToClear();
         }
 
         public static void SpawnObstacles(bool scaled = true)

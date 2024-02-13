@@ -369,7 +369,7 @@ namespace ParkInc
 
         private IEnumerator NextLevelCoroutine()
         {
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(1);
             GameController.TurnsAfterRewardVideo++;
             GameController.NextLevel();
         }

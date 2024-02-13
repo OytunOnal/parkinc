@@ -111,7 +111,7 @@ Material:
     - _RampMax: {r: 1, g: 1, b: 1, a: 1}
     - _RampMin: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Tiling: {r: 5, g: 1, b: 0, a: 0}
+    - _Tiling: {r: 3, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &5889187052027167592
 MonoBehaviour:
